@@ -11,9 +11,7 @@ public class AdditionFormula {
         System.out.println("Give the second number: ");
         int numbertwo = Integer.valueOf(scanner.nextLine());
 
-        int results = numberone + numbertwo;
-
-        System.out.println( numberone + "+" + numbertwo + "=" + results);
+        System.out.println( numberone + "+" + numbertwo + "=" + (numberone + numbertwo));
         scanner.close();
     }
 }
